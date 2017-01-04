@@ -76,7 +76,7 @@ public class RingtonePlayingService extends Service {
                     .setContentTitle("Alarma: Tomar Medicamento!")
                     .setContentText("Click me!")
                     .setContentIntent(pending_intent_main_activity)
-                    .setSmallIcon(R.drawable.ic_pastilla)
+                    .setSmallIcon(R.drawable.ic_pastillas)
                     .setAutoCancel(true)
                     .build();
 

@@ -14,8 +14,9 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_details">Detalle del Medicamento</string>
-    <string name="title_activity_Nuevo_Medicamento">Nuevo Medicamento</string>
+    <string name="title_activity_Nuevo_Medicamento">Crear Nuevo ... </string>
     <string name="title_activity_Mis_Medicamentos">Mis Medicamentos</string>
+    <string name="title_activity_Menu">Menú</string>
 
 
     <string-array name="names_array">

@@ -14,7 +14,8 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuActividad">
+        <activity android:name=".MenuActividad"
+            android:label="@string/title_activity_Menu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -46,7 +47,7 @@
 
         <activity
             android:name=".NuevoMedicamentoActivity"
-            android:label="@string/title_activity_Mis_Medicamentos">
+            android:label="@string/title_activity_Nuevo_Medicamento">
 
         </activity>
 

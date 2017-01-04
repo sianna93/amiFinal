@@ -1,14 +1,9 @@
 package com.example.janinacosta.ami;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,10 +37,10 @@ public class MenuActividad extends AppCompatActivity {
 
         List<MenuOpciones> items = new ArrayList<>();
 
-        items.add(new MenuOpciones(R.drawable.pastillas, "#082D5C"));
-        items.add(new MenuOpciones(R.drawable.mis_medicamentos, "#058687"));
-        items.add(new MenuOpciones(R.drawable.historial, "#FCB13D"));
-        items.add(new MenuOpciones(R.drawable.salir, "#A31C27"));
+        items.add(new MenuOpciones(R.drawable.ic_medicamentos_dia, "#082D5C"));
+        items.add(new MenuOpciones(R.drawable.ic_mis_medicamentos, "#058687"));
+        items.add(new MenuOpciones(R.drawable.ic_historial, "#FCB13D"));
+        items.add(new MenuOpciones(R.drawable.ic_salir, "#A31C27"));
         // Obtener el Recycler
         recycler = (RecyclerView) findViewById(R.id.reciclador);
         recycler.setHasFixedSize(true);
