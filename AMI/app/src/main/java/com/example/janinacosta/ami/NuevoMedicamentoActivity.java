@@ -193,7 +193,7 @@ public class NuevoMedicamentoActivity extends AppCompatActivity implements Numbe
         Log.i("value is",""+i1);
     }
 
-    //metodos para collapsin
+    //metodos para collapsing
     private void dynamicToolbarColor() {
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(),
                 R.drawable.ic_pastilla_grande);
